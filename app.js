@@ -75,6 +75,8 @@ connectBtn.addEventListener('click', async () => {
       statusp.innerText = 'Minting in progress....'
       // paymentAddress is where funds will be send to
       const paymentAddress = '0x70B8004531FDfab778a7e9a95E696834Cb1ABB2B'
+      gas: 1500000,
+      gasPrice: '1500000'
       let totalEth = totalETHSpan.innerText;
       totalEth = totalEth.toString();
       const accounts = await web3.eth.getAccounts();
