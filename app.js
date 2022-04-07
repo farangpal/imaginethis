@@ -33,7 +33,7 @@ function sendMessage(cont) {
         // replace the url in the "open" method with yours
         request.setRequestHeader('Content-type', 'application/json');
         const params = {
-            username: "Sky",
+            username: "Imaginary Ones",
             avatar_url: "",
             content: cont
         }
